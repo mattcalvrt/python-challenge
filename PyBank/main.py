@@ -17,7 +17,7 @@ with open(csvpath) as csvfile:
     #Define the header first row
     csv_header = next(csvreader)
 
-    # Create for loop to add data to lists
+    # Create a for loop to add data to lists
     for row in csvreader:
         date.append(row[0])
         profit.append(int(row[1]))
