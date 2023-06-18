@@ -1,6 +1,6 @@
 # python-challenge
 
-This repo contains two folders - PyBank and PyPoll. Each folder contains a Python file with script that reads in a csv file, performs analysis steps on the data, and prints the results to the terminal and to a text file.
+This repo contains two folders - **PyBank** and **PyPoll**. Each folder contains a Python file with script that reads in a csv file from the **Resources** subfolder, performs analysis steps on the data, and prints the results to the terminal and to a text file in the **analysis** subfolder.
 
 ## PyBank
 The PyBank csv is a financial dataset with "date" and "profit/loss" columns. The Python script iterates through the data to calculate:
